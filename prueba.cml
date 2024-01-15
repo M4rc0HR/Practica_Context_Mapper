@@ -1,0 +1,10 @@
+BoundedContext GestionVentas
+BoundedContext Inventario
+
+ContextMap ECommerce{ 
+    contains GestionVentas, Inventario
+
+    GestionVentas Supplier-Customer Inventario
+
+
+}
